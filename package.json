@@ -41,7 +41,7 @@
     "@angular/cli": "^17.3.17",
     "@angular/compiler-cli": "^17.3.0",
     "@capacitor/cli": "^6.2.1",
-    "@types/jasmine": "~5.1.0",
+    "@types/jasmine": "~7.0.0",
     "docx": "^9.7.1",
     "jasmine-core": "~5.1.0",
     "karma": "~6.4.0",
