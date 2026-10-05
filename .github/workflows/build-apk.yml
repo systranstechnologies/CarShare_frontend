@@ -49,7 +49,7 @@ jobs:
           grep -q '"project_info"' android/app/google-services.json
 
       - name: Setup Gradle
-        uses: gradle/actions/setup-gradle@v4
+        uses: gradle/actions/setup-gradle@v6
 
       - name: Build APK
         run: |
