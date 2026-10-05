@@ -1,0 +1,128 @@
+.app-footer {
+  background: linear-gradient(135deg, #5B4B8A 0%, #6B46C1 100%);
+  color: #fff;
+  padding: 16px 16px;
+  margin-top: 30px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-container {
+  max-width: 100%;
+  text-align: center;
+}
+
+.footer-copyright {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.9);
+  margin: 0 0 12px 0;
+  line-height: 1.4;
+}
+
+.footer-social {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 12px;
+}
+
+.social-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.3s ease;
+  border: none;
+}
+
+.social-icon:active {
+  background-color: rgba(255, 255, 255, 0.35);
+  transform: scale(0.95);
+}
+
+.social-icon svg {
+  width: 22px;
+  height: 22px;
+  stroke-width: 1.5;
+}
+
+.social-icon.instagram svg {
+  color: #E4405F;
+}
+
+.social-icon.youtube svg {
+  color: #FF0000;
+}
+
+.social-icon:active.instagram,
+.social-icon:active.youtube {
+  background-color: rgba(255, 255, 255, 0.35);
+}
+
+.footer-legal {
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 1.4;
+  margin: 0;
+}
+
+/* Mobile Optimized */
+@media (max-width: 768px) {
+  .app-footer {
+    padding: 12px 12px;
+    margin-top: 20px;
+  }
+
+  .footer-copyright {
+    font-size: 11px;
+    margin-bottom: 10px;
+  }
+
+  .footer-social {
+    gap: 12px;
+    margin-bottom: 10px;
+  }
+
+  .social-icon {
+    width: 36px;
+    height: 36px;
+    font-size: 16px;
+  }
+
+  .footer-legal {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .app-footer {
+    padding: 10px 10px;
+    margin-top: 15px;
+  }
+
+  .footer-copyright {
+    font-size: 10px;
+    margin-bottom: 8px;
+  }
+
+  .footer-social {
+    gap: 10px;
+    margin-bottom: 8px;
+  }
+
+  .social-icon {
+    width: 32px;
+    height: 32px;
+    font-size: 14px;
+  }
+
+  .footer-legal {
+    font-size: 9px;
+  }
+}
